@@ -1,4 +1,7 @@
 #!/bin/bash
+# Force .NET to run without ICU libraries
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
+
 chmod +x MinecraftClient-20250522-285-linux-x64
 
 # Infinite restart loop
